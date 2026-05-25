@@ -1,6 +1,3 @@
-# WebDAV
--keep class com.github.lookfirst.** { *; }
-
 # Gson
 -keepattributes Signature
 -keepattributes *Annotation*

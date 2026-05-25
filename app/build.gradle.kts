@@ -85,9 +85,6 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
-    // dav4jvm (WebDAV)
-    implementation("com.github.lookfirst:dav4jvm:1.0.2")
-
     // Coil (图片加载)
     implementation("io.coil-kt:coil-compose:2.5.0")
 }
