@@ -47,7 +47,7 @@ val recommendCards = listOf(
     RecommendCard("fav", Icons.Default.Favorite, "我喜欢的音乐", "128 首", listOf(Color(0xFF4e148c), Color(0xFF833ab4))),
     RecommendCard("daily", Icons.Default.FlashOn, "每日推荐", "", listOf(Color(0xFF1f4068), Color(0xFF162447))),
     RecommendCard("relax", Icons.Default.MusicNote, "放松时刻", "", listOf(Color(0xFF0f4c75), Color(0xFF3282b8))),
-    RecommendCard("sport", Icons.Default.Bolt, "运动节奏", "", listOf(Color(0xFFe85d04), Color(0xFFffb703))),
+    RecommendCard("sport", Icons.Default.FlashOn, "运动节奏", "", listOf(Color(0xFFe85d04), Color(0xFFffb703))),
     RecommendCard("classic", Icons.Default.Radio, "怀旧经典", "", listOf(Color(0xFFd90429), Color(0xFFef233c)))
 )
 
