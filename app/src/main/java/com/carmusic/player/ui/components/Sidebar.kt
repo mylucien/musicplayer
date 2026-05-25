@@ -12,8 +12,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CompactDisc
-import androidx.compose.material.icons.filled.Heart
+import androidx.compose.material.icons.filled.Album
+import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Settings
@@ -38,8 +38,8 @@ data class SidebarItem(
 
 val sidebarItems = listOf(
     SidebarItem("home", Icons.Default.Home, "首页"),
-    SidebarItem("library", Icons.Default.CompactDisc, "音乐库"),
-    SidebarItem("favorites", Icons.Default.Heart, "收藏"),
+    SidebarItem("library", Icons.Default.Album, "音乐库"),
+    SidebarItem("favorites", Icons.Default.Favorite, "收藏"),
     SidebarItem("settings", Icons.Default.Settings, "设置")
 )
 

@@ -16,7 +16,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Heart
+import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -107,7 +107,7 @@ fun PlaylistScreen(
                     colors = ButtonDefaults.buttonColors(containerColor = BgCard),
                     shape = RoundedCornerShape(20.dp)
                 ) {
-                    Icon(Icons.Default.Heart, contentDescription = null, tint = TextPrimary, modifier = Modifier.size(16.dp))
+                    Icon(Icons.Default.Favorite, contentDescription = null, tint = TextPrimary, modifier = Modifier.size(16.dp))
                     Spacer(modifier = Modifier.width(8.dp))
                     Text("收藏", color = TextPrimary)
                 }

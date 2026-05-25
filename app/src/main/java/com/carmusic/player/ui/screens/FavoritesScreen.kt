@@ -10,7 +10,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Heart
+import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -92,7 +92,7 @@ fun FavoritesScreen(
                     modifier = Modifier.width(50.dp)
                 )
                 Icon(
-                    imageVector = Icons.Default.Heart,
+                    imageVector = Icons.Default.Favorite,
                     contentDescription = "取消收藏",
                     tint = Color(0xFFE91E63),
                     modifier = Modifier.padding(start = 8.dp)

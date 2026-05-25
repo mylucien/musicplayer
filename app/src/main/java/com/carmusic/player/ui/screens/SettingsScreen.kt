@@ -10,16 +10,17 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ChevronRight
-import androidx.compose.material.icons.filled.Sliders
+import androidx.compose.material.icons.filled.Tune
 import androidx.compose.material.icons.filled.Tv
 import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.WaveSquare
+import androidx.compose.material.icons.filled.Equalizer
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -58,8 +59,8 @@ fun SettingsScreen(
             modifier = Modifier.width(200.dp)
         ) {
             listOf(
-                SettingsNavItem(Icons.Default.Sliders, "播放设置", isActive = true),
-                SettingsNavItem(Icons.Default.WaveSquare, "音效设置"),
+                SettingsNavItem(Icons.Default.Tune, "播放设置", isActive = true),
+                SettingsNavItem(Icons.Default.Equalizer, "音效设置"),
                 SettingsNavItem(Icons.Default.Tv, "显示设置"),
                 SettingsNavItem(Icons.Default.Person, "账号与登录")
             ).forEach { item ->

@@ -14,9 +14,9 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Bolt
-import androidx.compose.material.icons.filled.Fire
-import androidx.compose.material.icons.filled.Heart
+import androidx.compose.material.icons.filled.FlashOn
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Radio
 import androidx.compose.material3.Icon
@@ -44,8 +44,8 @@ data class RecommendCard(
 )
 
 val recommendCards = listOf(
-    RecommendCard("fav", Icons.Default.Heart, "我喜欢的音乐", "128 首", listOf(Color(0xFF4e148c), Color(0xFF833ab4))),
-    RecommendCard("daily", Icons.Default.Bolt, "每日推荐", "", listOf(Color(0xFF1f4068), Color(0xFF162447))),
+    RecommendCard("fav", Icons.Default.Favorite, "我喜欢的音乐", "128 首", listOf(Color(0xFF4e148c), Color(0xFF833ab4))),
+    RecommendCard("daily", Icons.Default.FlashOn, "每日推荐", "", listOf(Color(0xFF1f4068), Color(0xFF162447))),
     RecommendCard("relax", Icons.Default.MusicNote, "放松时刻", "", listOf(Color(0xFF0f4c75), Color(0xFF3282b8))),
     RecommendCard("sport", Icons.Default.Bolt, "运动节奏", "", listOf(Color(0xFFe85d04), Color(0xFFffb703))),
     RecommendCard("classic", Icons.Default.Radio, "怀旧经典", "", listOf(Color(0xFFd90429), Color(0xFFef233c)))
@@ -59,7 +59,7 @@ data class PlaylistSquare(
 )
 
 val playlistSquares = listOf(
-    PlaylistSquare("hot", Icons.Default.Fire, Color(0xFFFF5722), "流行热歌榜"),
+    PlaylistSquare("hot", Icons.Default.LocalFireDepartment, Color(0xFFFF5722), "流行热歌榜"),
     PlaylistSquare("chinese", Icons.Default.MusicNote, Color(0xFFFFEB3B), "华语经典"),
     PlaylistSquare("chill", Icons.Default.MusicNote, Color(0xFF00BCD4), "轻音乐合集"),
     PlaylistSquare("west", Icons.Default.MusicNote, Color(0xFF9C27B0), "欧美潮流"),

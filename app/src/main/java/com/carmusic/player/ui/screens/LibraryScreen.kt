@@ -17,10 +17,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccessTime
 import androidx.compose.material.icons.filled.Album
-import androidx.compose.material.icons.filled.Clock
 import androidx.compose.material.icons.filled.Download
 import androidx.compose.material.icons.filled.Folder
-import androidx.compose.material.icons.filled.Heart
+import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Icon
@@ -49,9 +48,9 @@ private val libCards = listOf(
     LibCard(Icons.Default.MusicNote, "全部音乐", "298 首歌曲"),
     LibCard(Icons.Default.Folder, "本地音乐", "128 首歌曲"),
     LibCard(Icons.Default.AccessTime, "最近播放", "50 首歌曲"),
-    LibCard(Icons.Default.Heart, "我喜欢的", "128 首歌曲"),
+    LibCard(Icons.Default.Favorite, "我喜欢的", "128 首歌曲"),
     LibCard(Icons.Default.Download, "下载管理", "32 首歌曲"),
-    LibCard(Icons.Default.Clock, "播放历史", "50 首歌曲"),
+    LibCard(Icons.Default.AccessTime, "播放历史", "50 首歌曲"),
     LibCard(Icons.Default.Album, "专辑", "25 张专辑"),
     LibCard(Icons.Default.Person, "歌手", "42 位歌手")
 )
